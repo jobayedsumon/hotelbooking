@@ -15,10 +15,10 @@ class CreateBookingsTable extends Migration
     {
         Schema::create('bookings', function (Blueprint $table) {
             $table->id();
-            $table->string('room_number');
+            $table->string('room_number')->index()->foreign('room_number')->references('room_number')->on('rooms');
             $table->dateTime('arrival');
             $table->dateTime('checkout');
-            $table->foreignId('customer_id')->references('id')->on('users')->onDelete('cascade');
+            $table->foreignId('customer_id')->unique()->references('id')->on('users')->onDelete('cascade');
             $table->string('book_type');
             $table->dateTime('book_time');
             $table->timestamps();

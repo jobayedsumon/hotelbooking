@@ -47,4 +47,10 @@ class User extends Authenticatable implements JWTSubject
     {
         return [];
     }
+
+    public function booking()
+    {
+        return $this->hasOne(Booking::class, 'customer_id');
+    }
+
 }

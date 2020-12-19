@@ -29,6 +29,14 @@ Route::group([
     Route::post('refresh', 'AuthController@refresh');
     Route::post('me', 'AuthController@me');
 
+    Route::get('rooms', 'RoomController@index');
+
+    Route::post('book', 'BookingController@store');
+
+    Route::post('checkout', 'BookingController@destroy');
+
+    Route::get('bookings', 'BookingController@index');
+
 });
 
 Route::post('login', 'AuthController@login');
