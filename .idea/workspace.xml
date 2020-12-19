@@ -148,7 +148,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -166,7 +166,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608393579869</updated>
       <workItem from="1608393591106" duration="216000" />
-      <workItem from="1608393813252" duration="1812000" />
+      <workItem from="1608393813252" duration="5126000" />
     </task>
     <servers />
   </component>
