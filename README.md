@@ -1,61 +1,63 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
-
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
-
-## About Laravel
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+<p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;margin-top:16.95pt;margin-right:0cm;margin-bottom:6.0pt;margin-left:0cm;background:white;'><strong><span style='font-size:32px;font-family:"Arial",sans-serif;color:black;'>Steps to run this project:</span></strong></p>
+<p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;margin-top:16.95pt;margin-right:0cm;margin-bottom:6.0pt;margin-left:0cm;background:white;'><strong><span style='font-size:32px;font-family:"Arial",sans-serif;'>&nbsp;</span></strong></p>
+<p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;margin-top:16.95pt;margin-right:0cm;margin-bottom:6.0pt;margin-left:0cm;background:white;'><strong><span style='font-size:24px;font-family:"Arial",sans-serif;color:black;'>1. Clone GitHub repo for this project locally</span></strong></p>
+<div style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;border:solid #CCCCCC 1.0pt;padding:7.0pt 7.0pt 7.0pt 7.0pt;background:whitesmoke;'>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;margin-bottom:7.5pt;background:whitesmoke;border:none;padding:0cm;'><span style="font-size:13px;font-family:Menlo;color:#333333;">git clone https://github.com/jobayedsumon/hotelbooking.git</span></p>
+</div>
+<p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;margin-bottom:19.5pt;background:white;'><span style='font-family:"PT Serif",serif;color:black;'>Once this runs, you will have a copy of the project on your computer.</span></p>
+<p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;margin-top:16.95pt;margin-right:0cm;margin-bottom:6.0pt;margin-left:0cm;background:white;'><strong><span style='font-size:24px;font-family:"Arial",sans-serif;color:black;'>2. cd into your project</span></strong></p>
+<p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;margin-bottom:19.5pt;background:white;'><span style='font-family:"PT Serif",serif;color:black;'>You will need to be inside that project file to enter all of the rest of the commands. So remember to type&nbsp;</span><span style="font-size:15px;font-family:Menlo;color:#C7254E;background:#F9F2F4;">cd&nbsp;</span><span style="font-size:15px;font-family:Menlo;color:#C7254E;background:#F9F2F4;">hotelbooking</span><span style='font-family:"PT Serif",serif;color:black;'>&nbsp;to move your terminal working location to the project file we just barely created.</span></p>
+<p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;margin-top:16.95pt;margin-right:0cm;margin-bottom:6.0pt;margin-left:0cm;background:white;'><strong><span style='font-size:24px;font-family:"Arial",sans-serif;color:black;'>3</span></strong><strong><span style='font-size:24px;font-family:"Arial",sans-serif;color:black;'>. Install Composer Dependencies</span></strong></p>
+<p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;margin-bottom:19.5pt;background:white;'><span style='font-family:"PT Serif",serif;color:black;'>When we run composer, it checks the&nbsp;</span><span style="font-size:15px;font-family:Menlo;color:#C7254E;background:#F9F2F4;">composer.json</span><span style='font-family:"PT Serif",serif;color:black;'>&nbsp;file which is submitted to the github repo and lists all of the composer (PHP) packages that&nbsp;</span><span style='font-family:"PT Serif",serif;color:black;'>our</span><span style='font-family:"PT Serif",serif;color:black;'>&nbsp;repo requires. Because these packages are constantly changing, the source code is generally not submitted to github, but instead we let composer handle these updates. So to install all this source code we run composer with the following command.</span></p>
+<div style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;border:solid #CCCCCC 1.0pt;padding:7.0pt 7.0pt 7.0pt 7.0pt;background:whitesmoke;'>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;margin-bottom:7.5pt;background:whitesmoke;border:none;padding:0cm;'><span style="font-size:13px;font-family:Menlo;color:#333333;">composer install</span></p>
+</div>
+<p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;margin-top:16.95pt;margin-right:0cm;margin-bottom:6.0pt;margin-left:0cm;background:white;'><strong><span style='font-size:24px;font-family:"Arial",sans-serif;color:black;'>4</span></strong><strong><span style='font-size:24px;font-family:"Arial",sans-serif;color:black;'>. Create a copy of</span></strong><strong><span style='font-size:24px;font-family:"Arial",sans-serif;color:black;'>&nbsp;</span></strong><strong><span style='font-size:24px;font-family:"Arial",sans-serif;color:black;'>.env file</span></strong></p>
+<p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;margin-bottom:19.5pt;background:white;'><span style="font-size:15px;font-family:Menlo;color:#C7254E;background:#F9F2F4;">.env</span><span style='font-family:"PT Serif",serif;color:black;'>&nbsp;files are not generally committed to source control for security reasons. But there is a&nbsp;</span><span style="font-size:15px;font-family:Menlo;color:#C7254E;background:#F9F2F4;">.env.example</span><span style='font-family:"PT Serif",serif;color:black;'>&nbsp;which is a template of the&nbsp;</span><span style="font-size:15px;font-family:Menlo;color:#C7254E;background:#F9F2F4;">.env</span><span style='font-family:"PT Serif",serif;color:black;'>&nbsp;file that the project expects us to have. So we will make a copy of the&nbsp;</span><span style="font-size:15px;font-family:Menlo;color:#C7254E;background:#F9F2F4;">.env.example</span><span style='font-family:"PT Serif",serif;color:black;'>&nbsp;file and create a&nbsp;</span><span style="font-size:15px;font-family:Menlo;color:#C7254E;background:#F9F2F4;">.env</span><span style='font-family:"PT Serif",serif;color:black;'>&nbsp;file that we can start to fill out to do things like database configuration in the next few steps.</span></p>
+<div style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;border:solid #CCCCCC 1.0pt;padding:7.0pt 7.0pt 7.0pt 7.0pt;background:whitesmoke;'>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;margin-bottom:7.5pt;background:whitesmoke;border:none;padding:0cm;'><span style="font-size:13px;font-family:Menlo;color:#333333;">cp .env.example .env</span></p>
+</div>
+<p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;margin-bottom:19.5pt;background:white;'><span style='font-family:"PT Serif",serif;color:black;'>This will create a copy of the&nbsp;</span><span style="font-size:15px;font-family:Menlo;color:#C7254E;background:#F9F2F4;">.env.example</span><span style='font-family:"PT Serif",serif;color:black;'>&nbsp;file in your project and name the copy simply&nbsp;</span><span style="font-size:15px;font-family:Menlo;color:#C7254E;background:#F9F2F4;">.env</span><span style='font-family:"PT Serif",serif;color:black;'>.</span></p>
+<p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;margin-top:16.95pt;margin-right:0cm;margin-bottom:6.0pt;margin-left:0cm;background:white;'><strong><span style='font-size:24px;font-family:"Arial",sans-serif;color:black;'>5</span></strong><strong><span style='font-size:24px;font-family:"Arial",sans-serif;color:black;'>. Generate an app encryption key</span></strong></p>
+<p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;margin-bottom:19.5pt;background:white;'><span style='font-family:"PT Serif",serif;color:black;'>Laravel requires you to have an app encryption key which is generally randomly generated and stored in your&nbsp;</span><span style="font-size:15px;font-family:Menlo;color:#C7254E;background:#F9F2F4;">.env</span><span style='font-family:"PT Serif",serif;color:black;'>&nbsp;file. The app will use this encryption key to encode various elements of your application from cookies to password hashes and more.</span></p>
+<p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;margin-bottom:19.5pt;background:white;'><span style='font-family:"PT Serif",serif;color:black;'>Laravel&rsquo;s command line tools thankfully make it super easy to generate this. In the terminal we can run this command to generate that key. (Make sure that you have already installed Laravel via composer and created an .env file before doing this, of which we have done both).</span></p>
+<div style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;border:solid #CCCCCC 1.0pt;padding:7.0pt 7.0pt 7.0pt 7.0pt;background:whitesmoke;'>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;margin-bottom:7.5pt;background:whitesmoke;border:none;padding:0cm;'><span style="font-size:13px;font-family:Menlo;color:#333333;">php artisan key:generate</span></p>
+</div>
+<p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;margin-bottom:19.5pt;background:white;'><span style='font-family:"PT Serif",serif;color:black;'>If you check the&nbsp;</span><span style="font-size:15px;font-family:Menlo;color:#C7254E;background:#F9F2F4;">.env</span><span style='font-family:"PT Serif",serif;color:black;'>&nbsp;file again, you will see that it now has a long random string of characters in the&nbsp;</span><span style="font-size:15px;font-family:Menlo;color:#C7254E;background:#F9F2F4;">APP_KEY</span><span style='font-family:"PT Serif",serif;color:black;'>&nbsp;field. We now have a valid app encryption key.</span></p>
+<p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;margin-top:16.95pt;margin-right:0cm;margin-bottom:6.0pt;margin-left:0cm;background:white;'><strong><span style='font-size:24px;font-family:"Arial",sans-serif;color:black;'>6</span></strong><strong><span style='font-size:24px;font-family:"Arial",sans-serif;color:black;'>. Create an empty database for our application</span></strong></p>
+<p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;margin-bottom:19.5pt;background:white;'><span style='font-family:"PT Serif",serif;color:black;'>Create an empty database for&nbsp;</span><span style='font-family:"PT Serif",serif;color:black;'>this</span><span style='font-family:"PT Serif",serif;color:black;'>&nbsp;project using the database tools you prefer</span><span style='font-family:"PT Serif",serif;color:black;'>.</span></p>
+<p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;margin-top:16.95pt;margin-right:0cm;margin-bottom:6.0pt;margin-left:0cm;background:white;'><strong><span style='font-size:24px;font-family:"Arial",sans-serif;color:black;'>7</span></strong><strong><span style='font-size:24px;font-family:"Arial",sans-serif;color:black;'>. In the .env file, add database information to allow Laravel to connect to the database</span></strong></p>
+<p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;margin-bottom:19.5pt;background:white;'><span style='font-family:"PT Serif",serif;color:black;'>We will want to allow Laravel to connect to the database that you just created in the previous step. To do this, we must add the connection credentials in the .env file and Laravel will handle the connection from there.</span></p>
+<p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;margin-bottom:19.5pt;background:white;'><span style='font-family:"PT Serif",serif;color:black;'>In the .env file fill in the&nbsp;</span><span style="font-size:15px;font-family:Menlo;color:#C7254E;background:#F9F2F4;">DB_HOST</span><span style='font-family:"PT Serif",serif;color:black;'>,&nbsp;</span><span style="font-size:15px;font-family:Menlo;color:#C7254E;background:#F9F2F4;">DB_PORT</span><span style='font-family:"PT Serif",serif;color:black;'>,&nbsp;</span><span style="font-size:15px;font-family:Menlo;color:#C7254E;background:#F9F2F4;">DB_DATABASE</span><span style='font-family:"PT Serif",serif;color:black;'>,&nbsp;</span><span style="font-size:15px;font-family:Menlo;color:#C7254E;background:#F9F2F4;">DB_USERNAME</span><span style='font-family:"PT Serif",serif;color:black;'>, and&nbsp;</span><span style="font-size:15px;font-family:Menlo;color:#C7254E;background:#F9F2F4;">DB_PASSWORD</span><span style='font-family:"PT Serif",serif;color:black;'>&nbsp;options to match the credentials of the database you just created. This will allow us to run migrations and seed the database in the next step.</span></p>
+<p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;margin-top:16.95pt;margin-right:0cm;margin-bottom:6.0pt;margin-left:0cm;background:white;'><strong><span style='font-size:24px;font-family:"Arial",sans-serif;color:black;'>8</span></strong><strong><span style='font-size:24px;font-family:"Arial",sans-serif;color:black;'>. Migrate the database</span></strong></p>
+<p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;margin-bottom:19.5pt;background:white;'><span style='font-family:"PT Serif",serif;color:black;'>Once your credentials are in the .env file, now you can migrate your database.</span></p>
+<div style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;border:solid #CCCCCC 1.0pt;padding:7.0pt 7.0pt 7.0pt 7.0pt;background:whitesmoke;'>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;margin-bottom:7.5pt;background:whitesmoke;border:none;padding:0cm;'><span style="font-size:13px;font-family:Menlo;color:#333333;">php artisan migrate</span></p>
+</div>
+<p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;margin-top:16.95pt;margin-right:0cm;margin-bottom:6.0pt;margin-left:0cm;background:white;'><strong><span style='font-size:24px;font-family:"Arial",sans-serif;color:black;'>9</span></strong><strong><span style='font-size:24px;font-family:"Arial",sans-serif;color:black;'>. Seed the database</span></strong></p>
+<p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;margin-bottom:19.5pt;background:white;'><span style='font-family:"PT Serif",serif;color:black;'>After the migrations are complete and you have the database structure required, then you can seed the database (which means add dummy data to it).</span></p>
+<div style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;border:solid #CCCCCC 1.0pt;padding:7.0pt 7.0pt 7.0pt 7.0pt;background:whitesmoke;'>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;margin-bottom:7.5pt;background:whitesmoke;border:none;padding:0cm;'><span style="font-size:13px;font-family:Menlo;color:#333333;">php artisan db:seed</span></p>
+</div>
+<p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;margin-bottom:19.5pt;background:white;'><span style='font-family:"PT Serif",serif;color:black;'>This will add 10 rooms with dummy data to the database.</span></p>
+<p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;margin-top:16.95pt;margin-right:0cm;margin-bottom:6.0pt;margin-left:0cm;background:white;'><strong><span style='font-size:24px;font-family:"Arial",sans-serif;color:black;'>10</span></strong><strong><span style='font-size:24px;font-family:"Arial",sans-serif;color:black;'>.&nbsp;</span></strong><strong><span style='font-size:24px;font-family:"Arial",sans-serif;color:black;'>Run the project</span></strong></p>
+<p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;margin-bottom:19.5pt;background:white;'><span style='font-family:"PT Serif",serif;color:black;'>Now we can start the project</span></p>
+<div style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;border:solid #CCCCCC 1.0pt;padding:7.0pt 7.0pt 7.0pt 7.0pt;background:whitesmoke;'>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;margin-bottom:7.5pt;background:whitesmoke;border:none;padding:0cm;'><span style="font-size:13px;font-family:Menlo;color:#333333;">php artisan&nbsp;</span><span style="font-size:13px;font-family:Menlo;color:#333333;">serve</span></p>
+</div>
+<p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;margin-bottom:19.5pt;background:white;'><span style='font-family:"PT Serif",serif;color:black;'>We can now check our APIs through Postman.</span></p>
+<p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;margin-bottom:19.5pt;background:white;'><strong><span style='font-size:24px;font-family:"PT Serif",serif;'>&nbsp;</span></strong></p>
+<p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;margin-bottom:19.5pt;background:white;'><strong><span style='font-size:29px;font-family:"PT Serif",serif;color:black;'>API ENDPOINTS:</span></strong></p>
+<ol style="list-style-type: decimal;">
+    <li><strong><span style='font-family:"PT Serif",serif;font-size:14.0pt;color:black;'>/api/register&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[POST]</span></strong></li>
+    <li><strong><span style='font-family:"PT Serif",serif;font-size:14.0pt;color:black;'>/api/login&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[POST]</span></strong></li>
+    <li><strong><span style='font-family:"PT Serif",serif;font-size:14.0pt;color:black;'>/api/auth/rooms&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[GET] (needs bearer token from login)</span></strong></li>
+    <li><strong><span style='font-family:"PT Serif",serif;font-size:14.0pt;color:black;'>/api/auth/book&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[POST] (needs bearer token from login)</span></strong></li>
+    <li><strong><span style='font-family:"PT Serif",serif;font-size:14.0pt;color:black;'>/api/auth/checkout&nbsp; &nbsp;&nbsp;[POST] (needs bearer token from login)</span></strong></li>
+    <li><strong><span style='font-family:"PT Serif",serif;font-size:14.0pt;color:black;'>/api/auth/bookings&nbsp; &nbsp;&nbsp;[GET] (needs bearer token from login)</span></strong></li>
+</ol>
+<p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;margin-bottom:19.5pt;background:white;'><strong><span style='font-size:24px;font-family:"PT Serif",serif;'>&nbsp;</span></strong></p>
+<p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;margin-bottom:19.5pt;background:white;'><span style='font-family:"PT Serif",serif;'>&nbsp;</span></p>
+<p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'><span style='font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+<p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'>&nbsp;</p>
